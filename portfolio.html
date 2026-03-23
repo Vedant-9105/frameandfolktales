@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ankit Mandap Decorators</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ankit Mandap Decorators</div>
+            <div class="menu-icon" id="menuIcon">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="portfolio-section">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="photos">Photos</button>
+                <button class="tab-btn" data-tab="videos">Videos</button>
+            </div>
+            <div class="tab-content active" id="photos">
+                <div class="photo-gallery">
+                    <!-- Add your gallery images here -->
+                    <img src="assets/images/gallery1.jpg" alt="Wedding decor 1">
+                    <img src="assets/images/gallery2.jpg" alt="Wedding decor 2">
+                    <img src="assets/images/gallery3.jpg" alt="Wedding decor 3">
+                    <!-- Add more as needed -->
+                </div>
+            </div>
+            <div class="tab-content" id="videos">
+                <div class="video-grid">
+                    <!-- Add your videos -->
+                    <video controls poster="assets/images/video-thumb.jpg">
+                        <source src="assets/videos/sample1.mp4" type="video/mp4">
+                    </video>
+                    <!-- Repeat for more videos -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Ankit Mandap Decorators. Crafted with love for unforgettable celebrations.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
